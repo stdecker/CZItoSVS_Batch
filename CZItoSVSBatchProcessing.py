@@ -34,10 +34,10 @@ def convert_czi_to_svs(czi_path, output_dir):
 #    slide_czi.close()                  #IF YOU WANT TO CONVERT MULTIPLE SCENES
 
 # Specify the directory containing .czi files
-czi_dir = r"C:\Users\u1159489\Box\FunaiLab\Data\IRI\Imaging\IRI\H&E\Batch1"
+czi_dir = r"Folder\Containing\CZI\Files"
 
 # Specify the output directory for .svs files
-svs_dir = r"C:\Users\u1159489\Box\FunaiLab\Data\IRI\Imaging\Converted"
+svs_dir = r"Folder\Containing\SVS\Files"
 
 # Create the output directory if it doesn't exist
 os.makedirs(svs_dir, exist_ok=True)
